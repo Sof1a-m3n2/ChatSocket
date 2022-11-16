@@ -18,9 +18,9 @@ MessageForm.addEventListener("submit", (e) => {
 });
 
 socket.on("nuevo mensaje", (data) => {
-  let color = "#f4f4f4";
+  let color = "#0269BB";
   if (data.username == nick) {
-    color = "#9ff4c5";
+    color = "#E5E4E4";
   }
   console.log(data.username)
 console.log(data)
